@@ -1,0 +1,103 @@
+nav, section{
+  display:inline-block;
+  font-family:sans-serif;
+  color: #19444C;
+}
+
+nav{
+  vertical-align:top;
+  width:15%;
+  margin-right:10px;
+}
+
+nav ul{
+    list-style:none;
+    padding:0px;
+    margin:0px;
+}
+
+li{
+  margin-bottom:5px;
+}
+
+li a{
+  text-decoration:none;
+  color: #fff;
+  font-size:18px;
+  display:block;
+  border-radius:5px;
+  background-color:#328799;
+  text-align:center;
+  padding:20px 2px 20px 2px;
+}
+
+section{
+  background-color: #B8D0D4;
+  margin-top: 3px;
+  padding: 15px 50px 20px 50px;
+  min-height:153px;
+  outline:solid 3px #C8C8C8;
+}
+
+h2{
+  margin:2px;
+  padding:0px;
+  font-size:22px;
+}
+
+p{
+  text-align:center;
+  margin:0px auto 10px auto;
+  padding:0px;
+}
+
+
+p label {
+  font-family:sans-serif;
+  font-size:16px;
+  font-weight:bold;
+}
+
+input[type=text], input [type=range], input [type=search], input[type=email], input[type=submit], input[type=password] {
+  -webkit-appearance: none;
+  margin:0px;
+  padding:0px;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=search] {
+  width:400px;
+  height:30px;
+  border-radius:5px;
+  border: inset 2px #328799;
+  font-family: sans-serif;
+  font-size:14px;
+  padding-left:4px;
+
+}
+
+input[type=range]{
+  width:400px;
+  padding:5px;
+  float:left;
+}
+
+#rangevalue{
+  font-size:14px;
+  vertical-align:sub;
+  margin-right:-25px;
+  padding:0;
+}
+
+input[type=submit] {
+  width:200px;
+  margin-top:20px;
+  height:44px;
+  border-radius:5px;
+  float:right;
+  vertical-align:bottom;
+  font-family:sans-serif;
+  font-size:18px;
+  color: #fff;
+  background:
+  linear-gradient(-45deg, #19444c, #328799)
+}
