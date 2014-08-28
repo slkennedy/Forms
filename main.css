@@ -12,8 +12,8 @@ nav{
 
 nav ul{
     list-style:none;
-    padding:0px;
-    margin:0px;
+    padding:0;
+    margin:0;
 }
 
 li{
@@ -41,14 +41,14 @@ section{
 
 h2{
   margin:2px;
-  padding:0px;
+  padding:0;
   font-size:22px;
 }
 
 p{
   text-align:center;
-  margin:0px auto 10px auto;
-  padding:0px;
+  margin:0 auto 10px auto;
+  padding:0;
 }
 
 
@@ -59,9 +59,10 @@ p label {
 }
 
 input[type=text], input [type=range], input [type=search], input[type=email], input[type=submit], input[type=password] {
+  -moz-appearance:none;
   -webkit-appearance: none;
-  margin:0px;
-  padding:0px;
+  margin:0;
+  padding:0;
 }
 
 input[type=text], input[type=email], input[type=password], input[type=search] {
@@ -81,7 +82,7 @@ input[type=range]{
   float:left;
 }
 
-#rangevalue{
+output {
   font-size:14px;
   vertical-align:sub;
   margin-right:-25px;
